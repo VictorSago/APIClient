@@ -157,4 +157,4 @@ cython_debug/
 
 
 # Local secrets
-config.ini
+auth.ini

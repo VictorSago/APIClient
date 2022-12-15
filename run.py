@@ -1,9 +1,23 @@
+"""
+API Client that retrieves information from CENELEC and saves it in json files inside retrieved_data folder
+"""
+
 import configparser
 import json
-import requests
 from datetime import datetime
+import requests
 
 import api_endpoints
+
+
+__author__ = "Victor Sago"
+__email__ = "VictorSago01@gmail.com"
+__copyright__ = ""
+__license__ = "Unlicensed"
+__version__ = "0.5.0"
+__maintainer__ = ""
+__email__ = "dev@elstandard.se"
+__status__ = "Development"
 
 
 AUTH_CONFIG_NAME = "auth.ini"

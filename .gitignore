@@ -160,4 +160,5 @@ cython_debug/
 auth.ini
 
 # Retrieved data
-retrieved_data/
+retrieved_data/*
+!retrieved_data/do_not_delete.txt

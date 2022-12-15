@@ -3,12 +3,18 @@
 This is an API client application for SEK Svensk Elstandard. It retrieves information from standardization 
 organisations. At this stage it only retrieves from CENELEC, but with the right permissions it can also retrieve from CEN, IEC and ISO.
 
+## Running
+
+The application is a Python script. It requires Python being installed on the machine where it is run. The command to run it is:
+
+```{bash}
+python run.py
+```
 
 ## Auth.ini
 
 The auth.ini file contains all the keys and IDs needed to obtain access to the API. The auth.example.ini shows the 
 form of the file. By feeling in the correct values in the example file one can create the necessary ini-file.
-
 
 ## Endpoints
 

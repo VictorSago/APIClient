@@ -1,5 +1,5 @@
 """
-API Client that retrieves information from CENELEC and saves it in json files inside retrieved_data folder
+API Client that retrieves information from and API and saves it in json files inside retrieved_data folder
 """
 
 import configparser
@@ -16,7 +16,6 @@ __copyright__ = ""
 __license__ = "Unlicensed"
 __version__ = "0.5.0"
 __maintainer__ = ""
-__email__ = "dev@elstandard.se"
 __status__ = "Development"
 
 

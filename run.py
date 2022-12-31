@@ -1,5 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
-API Client that retrieves information from and API and saves it in json files inside retrieved_data folder
+API Client that retrieves information from and API and saves it in json files inside retrieved_data folder.
 """
 
 import configparser
@@ -12,8 +14,8 @@ import api_endpoints
 
 __author__ = "Victor Sago"
 __email__ = "VictorSago01@gmail.com"
-__copyright__ = ""
-__license__ = "Unlicensed"
+__copyright__ = "Copyright 2022, API Client"
+__license__ = "MIT"
 __version__ = "0.5.0"
 __maintainer__ = ""
 __status__ = "Development"
